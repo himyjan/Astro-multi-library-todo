@@ -1,5 +1,6 @@
-import { type CSSResultGroup, html, css, LitElement, unsafeCSS } from 'lit';
-import { type TemplateResult } from 'lit-html';
+import { type CSSResultGroup, css, unsafeCSS } from 'lit';
+import { html, type TemplateResult } from 'lit-html';
+import { LitElement } from 'lit-element';
 import { customElement } from 'lit/decorators.js';
 
 import "./display";
