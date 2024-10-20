@@ -1,4 +1,4 @@
-import { CSSResultGroup, html, LitElement, unsafeCSS } from 'lit';
+import { type CSSResultGroup, html, LitElement, unsafeCSS } from 'lit';
 import { customElement, property } from 'lit/decorators.js';
 import tailwindcss from 'tailwindcss/tailwind.css?inline';
 

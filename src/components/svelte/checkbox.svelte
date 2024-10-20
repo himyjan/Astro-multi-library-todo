@@ -19,5 +19,5 @@
   <label
     for="toggle-{id}"
     class="toggle-label block overflow-hidden h-6 rounded-full bg-gray-300 cursor-pointer"
-  />
+  ></label>
 </div>

@@ -1,11 +1,11 @@
 import {
   css,
-  CSSResultGroup,
+  type CSSResultGroup,
   html,
   LitElement,
-  TemplateResult,
   unsafeCSS,
 } from 'lit';
+import { type TemplateResult } from 'lit-html';
 import { customElement, property } from 'lit/decorators.js';
 import { autorun } from 'mobx';
 import { store } from '../../store';

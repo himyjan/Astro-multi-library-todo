@@ -33,7 +33,7 @@
           {item.text}
         </p>
       </div>
-      <button on:click={() => store.removeTodo(item.id)} class="ml-5">
+      <button on:click={() => store.removeTodo(item.id)} class="ml-5" aria-label="displayButton">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 512 512"

@@ -26,6 +26,7 @@
     "@webcomponents/template-shadowroot": "^0.2.1",
     "astro": "^4.16.6",
     "lit": "^3.2.1",
+    "lit-html": "^3.2.1",
     "mobx": "^6.13.5",
     "mobx-persist-store": "^1.1.5",
     "preact": "^10.24.3",
