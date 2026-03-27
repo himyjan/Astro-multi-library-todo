@@ -17,7 +17,7 @@ class TodoStore {
           deserialize: (value) => JSON.parse(value),
         },
       ],
-      storage: typeof localStorage !== 'undefined' && window.localStorage,
+      storage: typeof window !== 'undefined' ? window.localStorage : undefined,
       stringify: true,
     });
   }

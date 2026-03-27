@@ -13,7 +13,7 @@ export default ({ id, completed }: PropsType): JSX.Element => (
       id={`toggle-${id}`}
       checked={completed}
       className='toggle-checkbox absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer'
-      onClick={() => store.toggle(id)}
+      onChange={() => store.toggle(id)}
     />
     <label
       htmlFor={`toggle-${id}`}

@@ -1,6 +1,7 @@
 /** @jsxImportSource solid-js */
 
-import { createSignal, JSX } from 'solid-js';
+import { createSignal } from 'solid-js';
+import type { JSX } from 'solid-js';
 import { store } from '../../store';
 
 export const Input = (): JSX.Element => {

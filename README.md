@@ -1,6 +1,6 @@
 # Astro multi UI library Todo list
 
-- UI: Svelte, Astro, Vue, React, Lit, Preact, Solid
+- UI: Svelte, Astro, Vue, React, Preact, Solid
 - TailwindCSS
 - Mobx for a shared centralized state with mobx-persist-store for auto persistance.
 

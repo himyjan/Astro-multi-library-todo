@@ -21,7 +21,7 @@ export default (): JSX.Element => {
   return (
     <div className='flex flex-col space-y-3 mr-0'>
       {list.map((item) => (
-        <div className='flex flex-row space-y-2 h-full flex-grow text-gray-900  shadow-lg bg-white focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-3 text-center items-center dark:focus:ring-gray-500 mr-2'>
+        <div key={item.id} className='flex flex-row space-y-2 h-full flex-grow text-gray-900  shadow-lg bg-white focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-3 text-center items-center dark:focus:ring-gray-500 mr-2'>
           <div className='pt-1 mr-5'>
             <CheckBox completed={item.completed} id={item.id} />
           </div>

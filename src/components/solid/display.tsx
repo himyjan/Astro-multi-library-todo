@@ -1,7 +1,8 @@
 /** @jsxImportSource solid-js */
 
 import { autorun } from 'mobx';
-import { createEffect, createSignal, For, JSXElement,  } from 'solid-js';
+import { createEffect, createSignal, For } from 'solid-js';
+import type { JSXElement } from 'solid-js';
 import { store } from '../../store';
 import type { Todo } from '../../types';
 import { CheckBox } from './checkbox';
